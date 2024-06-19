@@ -729,6 +729,7 @@ background-color: #ffffff;
   /* align-items: center; */
   text-align: left;
   transition: transform 0.4s;
+  cursor: pointer;
 }
 
 .plan:hover {

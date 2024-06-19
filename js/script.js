@@ -235,6 +235,16 @@ let calcScrollValue = () => {
   window.onload =  calcScrollValue
 
 
+  document.getElementById('planBtn').addEventListener('click', function() {
+    window.open('https://docs.google.com/forms/u/2/d/e/1FAIpQLSdBLJP-3_QSy7gpva_pROmc9VXM6m09v3eUEqDUevLZ7ghfWQ/viewform', '_blank');
+});
+
+
+document.getElementById('currentPlan').addEventListener('click', function() {
+    window.open('https://docs.google.com/forms/u/2/d/e/1FAIpQLSdBLJP-3_QSy7gpva_pROmc9VXM6m09v3eUEqDUevLZ7ghfWQ/viewform', '_blank');
+});
+
+
 
   
 
