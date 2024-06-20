@@ -65,6 +65,7 @@ a, ul, li {
     
   }
 
+  
 
   /* Progress steps */
 
@@ -517,6 +518,27 @@ form > div.active {
     text-wrap: nowrap;
 }
 
+
+.sign-in-btn {
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.sign-in-a {
+  color: #000000;
+  font-weight: 600;
+}
+
+.sign-in-span {
+  color: var(--brand-color);
+  margin-left: 4px;
+  transition: 0.4s;
+}
+
+.sign-in-span:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 860px) {
 
     .form-box {
@@ -577,24 +599,7 @@ form > div.active {
       }
 }
 
-.sign-in-btn {
-  margin-top: 10px;
-}
 
-.sign-in-a {
-  color: #000000;
-  font-weight: 600;
-}
-
-.sign-in-span {
-  color: var(--brand-color);
-  margin-left: 4px;
-  transition: 0.4s;
-}
-
-.sign-in-span:hover {
-  text-decoration: underline;
-}
 
 
 @media (max-width: 768px) {
